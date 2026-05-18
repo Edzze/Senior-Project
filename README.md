@@ -2,7 +2,16 @@
 
 This is the official implementation of the paper "SignVLM: A Pre-trained Large Vision Model for Sign Language Recognition"
 
+## Senior Project Only
 
+For the clip weights please download at 
+"https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt"
+
+The dataset used is available at https://www.kaggle.com/datasets/thtrnphc/wlasl100
+
+You might have to change the paths in the script.ps1 file and the train_wlasl_vitl14_32f_dec4x1024.sh file in the scripts folder.
+
+Once the model is trained it should be able to be run in inference_camera.py to check.
 
 ## Introduction
 
